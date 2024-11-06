@@ -14,6 +14,10 @@ h1{
     font-size: 48px;
 }
 
+h2 {
+    text-align: center;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -25,6 +29,7 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     height: 600px;
     width: 600px;
+    cursor: pointer;
     
 }
 
@@ -41,3 +46,27 @@ h1{
     border-right: 5px solid black;
     border-left: 5px solid black;
 }
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 124px;
+    font-weight: 800;
+}
+
+.btn-container {
+    text-align: center;
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#start {
+    font-size: 16px;
+}
+
